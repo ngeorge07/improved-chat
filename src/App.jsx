@@ -17,6 +17,7 @@ function App() {
 
   return (
     <div>
+      <h1 className="text-pink-600">Hello world from code spaces</h1>
       {messages.map((message) => (
         <p key={message.id}>{message.text}</p>
       ))}
